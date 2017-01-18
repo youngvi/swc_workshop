@@ -2,6 +2,8 @@ download.file("https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/
 gapminder <- read.csv("gapminder-FiveYearData.csv")
 
 #making notes on day 2 of software carpentry workshop 18jan17
+#changed via RStuio
+
 #then examine
 #head
 #str
