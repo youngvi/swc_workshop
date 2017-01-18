@@ -30,3 +30,6 @@ africa_2007[o,]
 #plot life expectancy versus per capita CGP
 ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp, color = continent)) + geom_point(aes(size=pop))
 
+#plot year versus life expectancy
+ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_point(aes(size=pop))
+
